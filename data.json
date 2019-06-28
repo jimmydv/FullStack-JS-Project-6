@@ -30,7 +30,7 @@
   "project_name":"oop-game",
   "description": "OOP Game Show App is built using JavaScript and is a \"phrase Hunter\" game where players have to guess letters contained on hidden phrases. The player tries to guess the phrase by selecting individual letters from an onscreen keyboard... ",
   "technologies": ["JavaScript", "HTML", "CSS"],
-  "live_link": "https://jd536.github.io/Interactive-Form/",
+  "live_link": "https://jd536.github.io/oop-game/",
   "github_link": "https://github.com/Jd536/oop-game",
   "image_urls" : ["phrasehunter-game_550.png", "phrasehunter-game.png"]
   }
