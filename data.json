@@ -1,0 +1,38 @@
+{"projects":[
+  {"id":0,
+  "project_name":"My Portfolio",
+  "description": "This application showcases the projects I have buit using HTML, CSS, Javascript (JQuery - NodeJs..etc). ",
+  "technologies": ["JavaScript", "jQuery", "HTML", "BootStrap", "CSS"],
+  "live_link": "https://jd536.github.io/",
+  "github_link": "https://github.com/Jd536/jd536.github.io",
+  "image_urls" : ["MyPortfolio_550.png","MyPortfolio.png"]
+},
+
+  {"id":1,
+  "project_name":"List Pagination",
+  "description": "This application takes a list of data from a source and display a maximum of 10 per page. The pagination numbers at the bottom of the page allow users to navigate the list of data with ease. ",
+  "technologies": ["JavaScript", "HTML", "CSS"],
+  "live_link": "https://jd536.github.io/List-Pagination/",
+  "github_link": "https://github.com/Jd536/List-Pagination",
+  "image_urls" : ["listpagination_550.png", "listpagination.png"]
+  },
+
+  {"id":2,
+  "project_name":"Interactive Form",
+  "description": "Interactive Form built with JavaScript. ",
+  "technologies": ["JavaScript", "HTML", "CSS"],
+  "live_link": "https://jd536.github.io/Interactive-Form//",
+  "github_link": "https://github.com/Jd536/Interactive-Form",
+  "image_urls" : ["interactiveForm_550.png", "interactiveForm.png"]
+  },
+
+  {"id":3,
+  "project_name":"oop-game",
+  "description": "OOP Game Show App is built using JavaScript and is a \"phrase Hunter\" game where players have to guess letters contained on hidden phrases. The player tries to guess the phrase by selecting individual letters from an onscreen keyboard... ",
+  "technologies": ["JavaScript", "HTML", "CSS"],
+  "live_link": "https://jd536.github.io/Interactive-Form/",
+  "github_link": "https://github.com/Jd536/oop-game",
+  "image_urls" : ["phrasehunter-game_550.png", "phrasehunter-game.png"]
+  }
+
+    ]}

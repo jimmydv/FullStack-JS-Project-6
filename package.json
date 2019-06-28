@@ -1,0 +1,24 @@
+{
+  "name": "fullstack-js-project-6",
+  "version": "0.0.1",
+  "description": "A porfolio app built using mainly Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Jd536/FullStack-JS-Project-6)"
+  },
+  "keywords": [
+    "node.js",
+    "npm"
+  ],
+  "author": "Jimmy D.",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}

@@ -1,6 +1,6 @@
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
   h5{
@@ -9,7 +9,9 @@ h1,h2,h3,h4,h5,p{
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
   }
-
+  h5 .i, #dots{
+    color: #f05738;
+  }
   h6{
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -54,8 +56,13 @@ a:hover{
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
+  filter: grayscale(100%);
 }
-
+.image:hover{
+  filter: grayscale(0%);
+  transform: scale(1.01);
+  transition: 1s;
+}
 .portfolio-me{
   padding: 20px;
   background: #121213;
@@ -71,7 +78,7 @@ a:hover{
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: #f05738;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -79,7 +86,9 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: #e43511;
+    transform: scale(1.1);
+    transition: 1s;
   }
 
 .portfolio-breadcrumb{
@@ -95,6 +104,7 @@ a:hover{
    letter-spacing: 2.5px;
    -webkit-text-transform: uppercase;
    text-transform: uppercase;
+   color:#f05738;
  }
 
 .portfolio-intro{
@@ -114,6 +124,15 @@ a:hover{
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
+    filter: grayscale(100%);
+    box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.75);
+  }
+
+  .portfolio-index .thumbnail:hover{
+    filter: grayscale(0%);
+    transform: scale(1.02);
+    box-shadow: 11px 11px 5px -7px rgba(0,0,0,0.75);
+    transition: 1s;
   }
 
   .portfolio-index a{
@@ -140,6 +159,9 @@ a:hover{
   border: none;
 }
 
+.portfolio-project h6{
+  border-bottom: 1px #f05738 solid;
+}
 .portfolio-project li{
   font-size: 13px;
   color: #444;
@@ -148,3 +170,40 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+/* Error page style*/
+
+.errorContainer{
+  width: 90%;
+  margin:2.5em auto 0;
+  padding:2.5 em;
+  background-color: silver;
+}
+
+.errorContainer h1{
+  text-align: center;
+  margin-top: 1em;
+}
+.errorContainer h2{
+  font-size: 9em;
+  text-align: center;
+  color:#f05738;
+}
+.errorDetails pre{
+  max-width: 100%;
+}
+@media (max-width: 968px) {
+  .errorContainer h2{
+    font-size: 7em;
+  }
+ }
+ @media (max-width:768px) {
+   .errorContainer h2{
+     font-size: 5em;
+   }
+  }
+  @media (max-width: 440px) {
+    .errorContainer h2{
+      font-size: 3em;
+    }
+   }
