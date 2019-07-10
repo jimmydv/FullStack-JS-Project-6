@@ -19,7 +19,7 @@ app.get('/about', (req, res) => {
 
 app.get('/project:id', (req, res, next) => {
     const id = req.params.id;
-    if(data[id]===undefined){
+    if(data[id]===undefined){ // throws an error if id inputed in teh browser url is not correct
       const err = new Error("Oops! Sorry something went wrong.");
       console.log(err);
       err.status = 500;
